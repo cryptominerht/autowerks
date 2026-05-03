@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact &amp; Booking — Autowerks Automotive · Beverly Hills Sydney</title>
+<meta name="description" content="Phone 02 9570 1066, email office@autowerksautomotive.com.au, or visit Sonny and Dee at 169 Penshurst Street Beverly Hills, Sydney NSW 2209.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header solid">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">A</span><span class="brand-text">Autowerks <small>Automotive · Sydney</small></span></a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="performance.html">Performance</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="phone-link" href="tel:0295701066">02 9570 1066</a>
+      <a class="btn btn-outline" href="#booking">Book Service</a>
+      <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-header" style="background-image: linear-gradient(90deg, rgba(10,10,10,0.92) 0%, rgba(10,10,10,0.6) 100%), url('https://www.autowerksautomotive.com.au/wp-content/uploads/2016/11/image5.jpg'); background-size: cover; background-position: center;">
+  <div class="container">
+    <nav class="breadcrumb"><a href="index.html">Home</a><span>/</span>Contact</nav>
+    <h1>Talk to <span class="serif-accent">us.</span></h1>
+    <p class="lead" style="color: rgba(255,255,255,0.7); max-width: 60ch;">Tell us what your car needs — or what you'd like it to do — and we'll be in touch within one business day.</p>
+  </div>
+</section>
+
+<!-- ============== Contact + Form ============== -->
+<section id="booking">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="contact-info reveal">
+        <span class="eyebrow">Get in touch</span>
+        <h2>Workshop &amp; office.</h2>
+
+        <div class="info-block">
+          <span class="eyebrow" style="color: var(--text-secondary);">Phone</span>
+          <a href="tel:0295701066"><strong>02 9570 1066</strong></a>
+          <p>Sonny &amp; Dee Duran</p>
+        </div>
+
+        <div class="info-block">
+          <span class="eyebrow" style="color: var(--text-secondary);">Email</span>
+          <a href="mailto:office@autowerksautomotive.com.au"><strong style="font-size: 0.95rem;">office@autowerksautomotive.com.au</strong></a>
+        </div>
+
+        <div class="info-block">
+          <span class="eyebrow" style="color: var(--text-secondary);">Workshop</span>
+          <strong>169 Penshurst Street</strong>
+          <p>Beverly Hills, Sydney NSW 2209</p>
+          <a class="btn btn-ghost" style="margin-top: 1rem;" href="https://www.google.com.au/maps/place/169+Penshurst+St,+Beverly+Hills+NSW+2209,+Australia/" target="_blank" rel="noopener">
+            Open in Maps
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="info-block" style="border:none;">
+          <span class="eyebrow" style="color: var(--text-secondary);">Hours</span>
+          <p style="margin-top: 0.5rem;">
+            <strong style="color: var(--text-primary); display: inline; font-size: 1rem;">Mon — Fri</strong> &nbsp; 7:30am – 5:30pm<br>
+            <strong style="color: var(--text-primary); display: inline; font-size: 1rem;">Saturday</strong> &nbsp; By appointment<br>
+            <strong style="color: var(--text-primary); display: inline; font-size: 1rem;">Sunday</strong> &nbsp; Closed
+          </p>
+        </div>
+
+      </div>
+
+      <div class="contact-form reveal reveal-d1">
+        <span class="eyebrow">Booking enquiry</span>
+        <h2 style="margin: 0.75rem 0 2rem;">Request a booking.</h2>
+        <form>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Your name *</label>
+              <input id="name" name="name" type="text" required>
+            </div>
+            <div class="form-field">
+              <label for="phone">Contact number *</label>
+              <input id="phone" name="phone" type="tel" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">Email *</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+            <div class="form-field">
+              <label for="vehicle">Vehicle make &amp; model</label>
+              <input id="vehicle" name="vehicle" type="text" placeholder="e.g. BMW M3 (2018)">
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="service">Service required</label>
+            <select id="service" name="service">
+              <option value="">Select a service…</option>
+              <option>Logbook Servicing</option>
+              <option>Safety Inspection / Pink Slip</option>
+              <option>Brake &amp; Clutch</option>
+              <option>Suspension &amp; Steering</option>
+              <option>Exhaust System</option>
+              <option>Dyno Tuning</option>
+              <option>Forced Induction</option>
+              <option>ECU / Power Chip</option>
+              <option>Diagnostic / Other</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="message">Tell us a bit more</label>
+            <textarea id="message" name="message" placeholder="Symptoms, mileage, anything else we should know"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content: center;">
+            Send Booking Request
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </button>
+          <p style="margin-top: 1.25rem; font-size: 0.8rem; color: var(--text-secondary);">We'll be in touch within one business day. For anything urgent, call <a href="tel:0295701066" style="color: var(--accent); font-weight: 600;">02 9570 1066</a>.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============== Map ============== -->
+<section style="padding:0;">
+  <div class="map-block">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.2!2d151.07807960000002!3d-33.954199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b96c474d0b95%3A0x7c2cebe22c0534c9!2s169%20Penshurst%20St%2C%20Beverly%20Hills%20NSW%202209%2C%20Australia!5e0!3m2!1sen!2sau!4v1715000000000"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Autowerks Automotive — 169 Penshurst Street, Beverly Hills"></iframe>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-mark">A</span>
+          <span class="brand-text" style="color:#fff;">Autowerks <small style="color: rgba(255,255,255,0.5);">Automotive · Sydney</small></span>
+        </div>
+        <p>Independent European and performance vehicle specialists, family-run from Beverly Hills, Sydney since 2002.</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/AutoWerks-Automotive-310464655655383/" target="_blank" rel="noopener">f</a>
+          <a href="https://www.youtube.com/channel/UCVxrlLZdCRt7JMG_eD3DvcA" target="_blank" rel="noopener">▶</a>
+        </div>
+      </div>
+      <div>
+        <h4>Workshop</h4>
+        <ul>
+          <li><a href="services.html">Logbook Servicing</a></li>
+          <li><a href="services.html">Safety Inspections</a></li>
+          <li><a href="services.html">Brake &amp; Clutch</a></li>
+          <li><a href="services.html">Suspension &amp; Steering</a></li>
+          <li><a href="services.html">Exhaust Systems</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Performance</h4>
+        <ul>
+          <li><a href="performance.html">Dyno-Tuning</a></li>
+          <li><a href="performance.html">Cold-Air Intake</a></li>
+          <li><a href="performance.html">Superchargers &amp; Turbo</a></li>
+          <li><a href="performance.html">Head &amp; Cam Upgrades</a></li>
+          <li><a href="performance.html">ECU &amp; Power Chips</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit Us</h4>
+        <p>
+          169 Penshurst Street<br>
+          Beverly Hills NSW 2209<br><br>
+          <a href="tel:0295701066"><strong style="color:#fff;">02 9570 1066</strong></a><br>
+          <a href="mailto:office@autowerksautomotive.com.au">office@autowerksautomotive.com.au</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Autowerks Automotive. All rights reserved.</span>
+      <div class="accred">
+        <span>MTA Accredited</span>
+        <span>IAME Member</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
