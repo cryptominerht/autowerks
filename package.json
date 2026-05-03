@@ -1,0 +1,8 @@
+{
+  "name": "autowerks",
+  "version": "1.0.0",
+  "description": "Autowerks Automotive - Sydney's Premier European Workshop",
+  "scripts": {
+    "dev": "npx serve -l 3000"
+  }
+}
